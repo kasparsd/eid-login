@@ -11,7 +11,10 @@ A helper plugin to login using Client Side Certificates, including European iden
 
 ## Description
 
-TODO
+
+![eID Login URL setting](screenshot-1.png)
+
+![User certificate fingerprint](screenshot-2.png)
 
 
 ## Installation
@@ -21,7 +24,8 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 ## Screenshots
 
-TODO
+1. eID Login URL setting
+2. User certificate fingerprint
 
 
 ## Changelog
@@ -29,4 +33,3 @@ TODO
 ### 0.1 (February 15, 2016)
 
 - First release.
-
