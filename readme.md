@@ -17,12 +17,13 @@ A subdomain (i.e. `https://eid.example.com`) that is configured to perform the c
 
 ### Screenshots
 
-- [eID Login URL setting](https://github.com/kasparsd/eid-login/raw/master/screenshot-1.png) and - [User certificate fingerprint setting](https://github.com/kasparsd/eid-login/raw/master/screenshot-2.png)
+- [eID Login URL setting](https://github.com/kasparsd/eid-login/raw/master/screenshot-1.png) and
+- [User certificate fingerprint setting](https://github.com/kasparsd/eid-login/raw/master/screenshot-2.png)
 
 
 ## Installation
 
-Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
+Extract the zip file and just drop the contents in the `wp-content/plugins/` directory of your WordPress installation and then activate the Plugin from Plugins page.
 
 
 ## Screenshots
