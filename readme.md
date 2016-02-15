@@ -11,10 +11,13 @@ A helper plugin to login using Client Side Certificates, including European iden
 
 ## Description
 
+### Requirements
 
-![eID Login URL setting](screenshot-1.png)
+A subdomain (i.e. `https://eid.example.com`) that is configured to perform the client certificate validation and pass the results as `SSL_CLIENT_VERIFY` and `SSL_CLIENT_FINGERPRINT` environment variables to the WordPress login page `https://example.com/wp-login.php`.
 
-![User certificate fingerprint](screenshot-2.png)
+### Screenshots
+
+- [eID Login URL setting](https://github.com/kasparsd/eid-login/raw/master/screenshot-1.png) and - [User certificate fingerprint setting](https://github.com/kasparsd/eid-login/raw/master/screenshot-2.png)
 
 
 ## Installation
