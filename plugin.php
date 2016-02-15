@@ -211,6 +211,9 @@ class eid_login {
 		<p>
 			<input type="url" name="eid_login_url" value="<?php echo esc_attr( $url ) ?>" class="large-text" placeholder="<?php echo esc_attr( $url_placeholder ); ?>" />
 		</p>
+		<p class="description">
+			<?php esc_html_e( 'URL of the server that is configured to perform the client certificate validation.', 'eid-login' ); ?>
+		</p>
 		<?php
 
 	}
