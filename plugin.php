@@ -138,7 +138,7 @@ class eid_login {
 	}
 
 
-	public function admin_save_user_fingerprint() {
+	public function admin_save_user_fingerprint( $user_id ) {
 
 		// Note that WP already takes care for checking for permissions
 		if ( ! isset( $_POST['cert_fingerprint'] ) ) {
