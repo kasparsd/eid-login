@@ -72,8 +72,9 @@ You can find the SHA1 fingerprint of your client certificate during the certific
 
 ### Screenshots
 
-- [eID Login URL setting](https://github.com/kasparsd/eid-login/raw/master/screenshot-1.png) and
+- [eID Login URL setting](https://github.com/kasparsd/eid-login/raw/master/screenshot-1.png)
 - [User certificate fingerprint setting](https://github.com/kasparsd/eid-login/raw/master/screenshot-2.png)
+- [WordPress Login page with eID login link](https://github.com/kasparsd/eid-login/raw/master/screenshot-4.png)
 
 
 ## Installation
