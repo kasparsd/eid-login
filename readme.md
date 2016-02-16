@@ -11,12 +11,13 @@ A helper plugin to login using Client Side Certificates, including European iden
 
 ## Description
 
+![Screenshot of the login page with Client Certificate login link](screenshot-4.png)
+
 ### Requirements
 
 - A subdomain (i.e. `https://eid.example.com`) that is configured to perform the client certificate validation and pass the results as `SSL_CLIENT_VERIFY` and `SSL_CLIENT_FINGERPRINT` environment variables to the WordPress login page `https://example.com/wp-login.php` which in turn issues a login cookie.
 
 - Defined `COOKIE_DOMAIN` as `.example.com` (or similar) because the whole process relies on WordPress issuing an authentication cookie from a subdomain for the top level domain.
-
 
 #### Nginx Configuration
 
