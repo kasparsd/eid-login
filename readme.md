@@ -66,7 +66,7 @@ Here is an example of an Nginx configuration for the authentication server. The 
 
 	}
 
-### SHA1 fingerprint
+### SHA1 fingerprint of the Client Certificate
 
 You can find the SHA1 fingerprint of your client certificate during the certificate selection process in the browser ([screenshot](https://github.com/kasparsd/eid-login/raw/master/screenshot-3.png)).
 
