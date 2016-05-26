@@ -4,7 +4,7 @@ Plugin Name: eID Login
 Plugin URI: https://github.com/kasparsd/eid-login
 GitHub URI: https://github.com/kasparsd/eid-login
 Description: Login with eID cards.
-Version: 0.1
+Version: 0.1.1
 Author: Kaspars Dambis
 Author URI: http://kaspars.net
 */
@@ -54,6 +54,7 @@ class eid_login {
 		// This relies on the server providing these variables
 		$fingerprint = getenv( 'SSL_CLIENT_FINGERPRINT' );
 		$verify = getenv( 'SSL_CLIENT_VERIFY' );
+		$rememberme = ! empty( $_POST['rememberme'] );
 
 		// Client verification not attempted
 		if ( empty( $verify ) ) {
@@ -111,7 +112,7 @@ class eid_login {
 		) );
 
 		if ( ! is_wp_error( $fingerprint_users ) && isset( $fingerprint_users[0]->ID ) ) {
-			wp_set_auth_cookie( $fingerprint_users[0]->ID );
+			wp_set_auth_cookie( $fingerprint_users[0]->ID, $rememberme );
 			wp_safe_redirect( admin_url() );
 			exit;
 		}
